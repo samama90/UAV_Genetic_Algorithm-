@@ -128,7 +128,7 @@ The implemented weighted fitness function is:
 \[
 \begin{aligned}
 F ={}& 10C + 10D - 2E - T - 5H\\
-&-1000N - 500R
+    &- 1000N - 500R
 \end{aligned}
 \]
 

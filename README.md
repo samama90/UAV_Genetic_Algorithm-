@@ -91,9 +91,7 @@ The default configuration uses three UAVs with five waypoints per UAV.
 
 Therefore, the chromosome contains:
 
-\[
-3 \times 5 \times 5 = 75 \text{ genes}
-\]
+3 UAVs × 5 waypoints per UAV × 5 genes per waypoint = 75 genes
 
 The first waypoint of each UAV is assigned to its predefined starting position. The remaining waypoint coordinates and mission parameters are initialized within their configured ranges.
 
@@ -125,12 +123,8 @@ Evaluates each candidate mission using coverage and detection rewards, together 
 
 The implemented weighted fitness function is:
 
-\[
-\begin{aligned}
-F ={}& 10C + 10D - 2E - T - 5H\\
-    &- 1000N - 500R
-\end{aligned}
-\]
+F = 10C + 10D - 2E - T - 5H
+-1000N -500R
 
 Where:
 
